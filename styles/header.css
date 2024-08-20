@@ -1,0 +1,9 @@
+header{
+  display: grid;
+  gap: .5rem;
+
+  & figure{
+    margin-top: 2rem;
+  }
+}
+
