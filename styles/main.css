@@ -4,4 +4,9 @@ main{
     padding-top: 1.5rem;
     padding-bottom: 1rem;
   }
+  & img{
+    border-radius: 1.75rem;
+    max-width: 70rem;
+    margin-top: 2.5rem;
+  }
 }
