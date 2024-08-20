@@ -25,3 +25,38 @@
     text-align: justify;
   }
 }
+
+.paragraph{
+  display: grid;
+  margin-top: 1.25rem;
+  gap: 1.75rem;
+
+  & strong li{
+    color: var(--accent-blue);
+  }
+}
+
+#multi-color{
+
+ & li:nth-child(1){
+  color: var(--accent-purple);
+ }
+ & li:nth-child(2){
+  color: var(--accent-orange);
+ }
+ & li:nth-child(3){
+  color: var(--text-headline);
+ }
+}
+
+  .sub-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    margin-bottom: 3rem;
+    & i{
+      font-style: normal;
+      text-align: center ;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  }
